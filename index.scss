@@ -1,0 +1,53 @@
+body{
+    /*background-color: darken(aqua, $amount: 20);
+    #form_container{
+        text-align: center;
+        border: 2px inset yellow;
+        display: flexbox;
+        font-size: 2rem;
+        input{
+            font-size: 1.4rem;
+            color: red;
+            background-color: yellow;
+            border-radius: 200px;
+        }
+        button{
+            border-radius: 200px;
+            font-size: 1.5rem;
+            margin: 25px;
+            color: yellow;
+            background-color: black;
+        }
+        button:hover{
+            font-size: 1.55rem;
+        }
+    }*/
+    text-align: center;
+    #main{
+        border: 3px solid blue;
+        display: inline-block;
+        margin: 20px;
+        padding: 20px;
+        background-color: tomato;
+        input,label,button{
+            text-align: center;
+            margin: 8px;
+            font-size: 2rem;
+            color: red;
+            background-color: beige;
+            border-radius: 200px;
+            padding: 2px;
+        }
+        #result{
+            border: 4px inset aqua;
+            display: inline-flexbox;
+            font-size: 2rem;
+            background-color: azure;
+            color: violet;
+        }
+        button:hover{
+            background-color: rgb(144, 144, 45);
+            cursor: pointer;
+        }
+    }
+}
